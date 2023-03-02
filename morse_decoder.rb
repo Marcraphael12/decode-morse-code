@@ -27,17 +27,11 @@ def decode_a_word(word)
   result
 end
 
-def decode_phrase(phrase)
-  new_phrase = phrase.gsub('/', ' ')
-  phrase_array = new_phrase.split(/   /, -1)
-  final = ''
-  phrase_array.each do |j|
-    final = if final == ''
-              decode_a_word(j).to_s
-            else
-              new_word = decode_a_word(j).to_s
-              "#{final} #{new_word}"
-            end
+def decode_message(message)
+  arr = message.split('  ')
+  result = ''
+  arr.each do |i|
+    result += decode_a_word(i) + ' '
   end
-  final
+  result
 end
