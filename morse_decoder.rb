@@ -33,11 +33,11 @@ def decode_phrase(phrase)
   final = ''
   phrase_array.each do |j|
     final = if final == ''
-        decode_a_word(j).to_s
-      else
-        new_word = decode_a_word(j).to_s
-        "#{final} #{new_word}"
-      end
+              decode_a_word(j).to_s
+            else
+              new_word = decode_a_word(j).to_s
+              "#{final} #{new_word}"
+            end
   end
   final
 end
