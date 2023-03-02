@@ -31,7 +31,7 @@ def decode_message(message)
   arr = message.split('  ')
   result = ''
   arr.each do |i|
-    result += decode_a_word(i) + ' '
+    result += "#{decode_a_word(i)} "
   end
   result
 end
