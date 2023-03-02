@@ -39,26 +39,3 @@ Let's not waste time, the pirate treasure awaits! Let's get to work.
 ```
       .-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...
 ```
-      
-      
-  You can use IRB for that :)
-
-## Work and submission mode
-
-- You should implement the above requirements only in **one repository** in your pair-programming group.
-- You should ask for a review and submit this activity **on behalf of your pair-programming group.**
-
-
-## Code review
-
-Follow [these steps](https://github.com/microverseinc/curriculum-transversal-skills/blob/main/code-review/articles/how_to_ask_for_a_code_review.md) to request a code review of your project.
-
-## Submit your project
-
-After the final approval from a code reviewer, you need to submit your project.
-[Read this FAQ for a reminder on how to submit your project.](https://microverse.zendesk.com/hc/en-us/articles/360061344234)
-Now go to your Student Dashboard and submit your project.
-
-------
-
-_If you spot any bugs or issues in this activity, you can [open an issue with your proposed change](https://github.com/microverseinc/curriculum-transversal-skills/blob/main/git-github/articles/open_issue.md)._
